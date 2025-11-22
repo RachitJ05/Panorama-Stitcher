@@ -2,3 +2,4 @@ flask
 werkzeug
 opencv-python-headless
 numpy
+gunicorn
