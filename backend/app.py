@@ -15,6 +15,10 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXT
 
+@app.route('/')
+def home():
+    return "Backend is running!"
+
 @app.route('/ping')
 def ping():
     return jsonify({'status': 'ok'})
