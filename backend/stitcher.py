@@ -99,7 +99,7 @@ def stitch_images(image_paths, out_dir='uploads'):
     # run geometric crop
     cropped, minRect, overlay, mask, contour_overlay = geometric_crop_with_visuals(stitched)
 
-    cropped_name = os.path.join(out_dir, 'stitched_cropped.png')
+    cropped_name = os.path.join(out_dir, 'Stitched_Image.png')
     overlay_name = os.path.join(out_dir, 'overlay.png')
     contour_name = os.path.join(out_dir, 'contour.png')
     mask_name = os.path.join(out_dir, 'mask.png')
