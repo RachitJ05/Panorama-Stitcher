@@ -2,7 +2,7 @@
 
 🚀 Live Demo: https://panorama-stitcher.vercel.app/
 
-🖼 Backend API: https://panorama-stitcher.onrender.com/
+🖼 Backend API: https://panorama-stitcher.onrender.com
 
 # 🌄 Panorama Stitcher  
 A full-stack React + Flask application that stitches multiple images into a panoramic output using OpenCV.  
