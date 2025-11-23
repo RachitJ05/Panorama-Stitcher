@@ -61,9 +61,9 @@ npm install
 npm run dev
 ```
 
-<img width="2559" height="1186" alt="image" src="https://github.com/user-attachments/assets/34b6e87f-f462-4c1e-8b4d-0d72bfa0a398" />
+<image src = /screenshots/image.png>
 
 
 ## 📦 Deployment
-Frontend → Vercel / Netlify  
-Backend → Render / Railway / Heroku
+Frontend → Vercel
+Backend → Render
